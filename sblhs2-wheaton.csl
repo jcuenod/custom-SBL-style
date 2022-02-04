@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="chicago" default-locale="en-US">
   <info>
-    <title>Society of Biblical Literature 2nd edition (full note, no DOI)</title>
-    <id>https://raw.githubusercontent.com/jcuenod/custom-SBL-style/main/society-of-biblical-literature-fullnote-bibliography-without-doi.csl</id>
+    <title>SBLHS2 for Wheaton PhDs</title>
+    <id>https://raw.githubusercontent.com/jcuenod/custom-SBL-style/main/sblhs2-wheaton.csl</id>
     <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="template"/>
     <link href="http://www.sbl-site.org/publications/SBLHandbookofStyle.aspx" rel="documentation"/>
     <author>
@@ -35,7 +35,7 @@
     </contributor>
     <category citation-format="note"/>
     <category field="theology"/>
-    <summary>Society of Biblical Literature format with full notes and bibliography but without DOI</summary>
+    <summary>Society of Biblical Literature format with full notes and bibliography modified for Wheaton PhDs</summary>
     <updated>2022-01-04T01:47:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
@@ -606,7 +606,7 @@
   <macro name="locators">
     <choose>
       <if type="article-journal">
-        <group prefix=" " delimiter=".">
+        <group prefix=" " delimiter=" no. ">
           <text variable="volume"/>
           <number variable="issue"/>
         </group>
@@ -914,7 +914,7 @@
     <choose>
       <if type="article-journal">
         <text variable="volume" prefix=" "/>
-        <text variable="issue" prefix="."/>
+        <text variable="issue" prefix=" no. "/>
         <text macro="issued" prefix=" (" suffix=")"/>
       </if>
       <else-if variable="publisher-place publisher" match="any">
@@ -1187,4 +1187,3 @@
     </layout>
   </bibliography>
 </style>
-

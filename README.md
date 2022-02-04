@@ -1,6 +1,15 @@
-# Custom SBL citation style
+# SBL Handbook Second Edition Style for Wheaton PhDs
 
-I didn't want the DOI to show in my dissertation. So this is a fork that I guess I'll maintain until I no longer need it.
+This is just the regular SBL style (full note) with some slight changes.
+
+1. No DOI in the footnotes. That was just my own judgement and I didn't want to delete automatically imported data from Zotero.
+2. Journal citation should be "41 no. 1" not "41.1" in the Wheaton style in both the footnotes and the bibliography.
+
+To add to Zotero:
+
+1. `Edit` -> `Preferences` -> `Cite` -> `+` (the plus button is to the right under the list of styles)
+2. Find the file I've attached and add. Zotero told me it's not valid but I think the regular SBL style is not valid and it just works.
+3. Choose this style in your documents.
 
 # Licensing
 
